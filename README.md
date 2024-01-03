@@ -1,1 +1,1 @@
-# HealthCheckup-Assistant-Predictive-Health-Analysis-Diagnosis-Tool
+# CardioPulmonary ChatMed: AI-Powered Heart & Lung Health Checker
