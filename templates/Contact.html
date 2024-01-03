@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="http://127.0.0.1:5000/static/chatboi.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ChatBot Ai 101</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='Contact.css') }}" />
+</head>
+<body>
+<header>
+        <h1 class="image-container"><img src="{{ url_for('static',filename='chatboi.png') }}" width="220"
+                                         alt="Description of the image"></h1>
+        <nav class="navigation">
+            <a href="/" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Home</span>
+            </a>
+            <br><a href="/HealthCheckup" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Health Checkup</span>
+            </a></br>
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Help</span>
+            </a>
+            <br><a href="/Contact" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Contact</span>
+            </a></br>
+
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Login</span>
+            </a>
+        </nav>
+    </header>
+    <div class="AnonymousImg">
+        <img class="details1" src="{{ url_for('static',filename='default.png') }}" width="200" style="margin-left: 770px;margin-top: 200px;">
+        <img class="details2" src="{{ url_for('static',filename='default.png') }}" width="200" style="margin-left: 70px;">
+        <img class="details3" src="{{ url_for('static',filename='default.png') }}" width="200" style="margin-left: 70px;">
+        <button class="pushable" style="margin-right: 650px;margin-top: 50px;"><span class="shadow"></span><span class="edge"></span><span class="front">Push Me</span></button>
+        <button class="pushable" style="margin-right: 130px;" onclick="window.location.href='https://www.linkedin.com';"><span class="shadow"></span><span class="edge"></span><span class="front">LinkedIn</span></button>
+        <button class="pushable" onclick="window.location.href='https://www.linkedin.com';"><span class="shadow"></span><span class="edge"></span><span class="front">LinkedIn</span></button>
+        <button class="pushable" style="margin-left: 125px;" onclick="window.location.href='https://www.linkedin.com';"><span class="shadow"></span><span class="edge"></span><span class="front">LinkedIn</span></button>
+        <button class="pushable" style="margin-right: 650px;margin-top: 50px;"><span class="shadow"></span><span class="edge"></span><span class="front">Push Me</span></button>
+        <button class="pushable" style="margin-right: 150px;" onclick="window.location.href='https://www.x.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Twitter</span></button>
+        <button class="pushable" onclick="window.location.href='https://www.x.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Twitter</span></button>
+        <button class="pushable" style="margin-left: 125px;" onclick="window.location.href='https://www.x.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Twitter</span></button>
+        <button class="pushable" style="margin-right: 650px;margin-top: 50px;"><span class="shadow"></span><span class="edge"></span><span class="front">Push Me</span></button>
+        <button class="pushable" style="margin-right: 125px;" onclick="window.location.href='https://www.facebook.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Facebook</span></button>
+        <button class="pushable" onclick="window.location.href='https://www.facebook.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Facebook</span></button>
+        <button class="pushable" style="margin-left: 125px;" onclick="window.location.href='https://www.facebook.com';"><span class="shadow"></span><span class="edge"></span><span class="front">Facebook</span></button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="http://127.0.0.1:5000/static/chatboi.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ChatBot Ai 101</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}" />
+</head>
+<body>
+<header>
+        <h1 class="image-container"><img src="{{ url_for('static',filename='chatboi.png') }}" width="220"
+                                         alt="Description of the image"></h1>
+        <nav class="navigation">
+            <a href="/" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Home</span>
+            </a>
+            <br><a href="/HealthCheckup" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Health Checkup</span>
+            </a></br>
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Help</span>
+            </a>
+            <br><a href="/Contact" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Contact</span>
+            </a></br>
+
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Login</span>
+            </a>
+        </nav>
+    </header>
+   <div class="container">
+      <img class="AiImg" src="{{ url_for('static',filename='mjbot.png') }}" width="220" alt="Description">
+    <h1 class="HeadingText">Welcome to <span class="light-pink-text">BYS</span> Health Center</h1>
+    <h2 class="DescriptionText" align="center">
+        Your <span class="light-pink-text">Personal</span> Health Companion.<br>
+        Feeling unwell and unsure about your symptoms? <span class="light-pink-text">BYS</span> is here to assist you, Our advanced <span class="light-pink-text">artificial intelligence</span> analyzes your symptoms and provides personalized insights to help you understand and manage your <span class="light-pink-text">health</span>.
+    </h2>
+</div>
+
+<style>
+    .light-pink-text {
+        color: purple;
+    }
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>

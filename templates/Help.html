@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="http://127.0.0.1:5000/static/chatboi.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ChatBot Ai 101</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styleHelp.css') }}" />
+</head>
+<body>
+<header>
+        <h1 class="image-container"><img src="{{ url_for('static',filename='chatboi.png') }}" width="220"
+                                         alt="Description of the image"></h1>
+        <nav class="navigation">
+            <a href="/" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Home</span>
+            </a>
+            <br><a href="/HealthCheckup" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Health Checkup</span>
+            </a></br>
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Help</span>
+            </a>
+            <br><a href="/Contact" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Contact</span>
+            </a></br>
+
+            <a href="/Help" class="learn-more">
+
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow">
+                        </span>
+                    </span>
+                    <span class="button-text">Login</span>
+            </a>
+        </nav>
+    </header>
+<div class="container">
+    <h2 class="textSameer">
+        <span class="heading">1. How to Use:</span><br><br>
+        Click on the mic button to input your symptoms using voice.
+        Speak clearly and concisely for accurate results.
+        Follow the prompts to complete the analysis.
+        <br><br>
+        <span class="heading">2. Interpreting Results:</span><br><br>
+        Results indicate likelihood, not a diagnosis.
+        Consult a healthcare professional for personalized advice.
+        We do not store personal data for privacy.
+        <br><br>
+        <span class="heading">3. Disclaimer:</span><br><br>
+        Not a substitute for professional medical advice.
+        Use results as a guide, not a diagnosis.
+        <br><br>
+    </h2>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
