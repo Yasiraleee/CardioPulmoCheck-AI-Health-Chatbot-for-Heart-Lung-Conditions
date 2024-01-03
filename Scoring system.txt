@@ -1,0 +1,36 @@
+correlated_heart_attributes = ['HighBP', 'HighChol', 'Stroke', 'Diabetes']
+heart_attributes = ['PhysActivity', 'GenHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age']
+
+
+lung_attributes = ['SMOKING', 'YELLOW_FINGERS','SHORTNESS OF BREATH']
+correlated_lung_attributes = ['Wheezing', 'Allergy', 'Swallowing Difficulty', 'Coughing', 'Alcohol']
+
+
+score1 = 0
+def fun(attributes):
+    global score1
+
+    for attribute in attributes:
+        user_input = input(f"{attribute}: ")
+        score1 += int(user_input)  # Assuming the input is numeric (0 or 1)
+    return
+score2 = 0
+def fun2(heart_attributes):
+    global score2
+
+    for attribute in heart_attributes:
+        user_input = input(f"{attribute}: ")
+        score2 += int(user_input)  # Assuming the input is numeric (0 or 1)
+    return
+
+fun(correlated_lung_attributes)
+
+if 1 <= score1 <= 5:
+    fun(lung_attributes)
+
+fun2(correlated_heart_attributes)
+if 1 <= score2 <= 3:
+    fun2(heart_attributes)
+
+print(score1)
+print(score2)
