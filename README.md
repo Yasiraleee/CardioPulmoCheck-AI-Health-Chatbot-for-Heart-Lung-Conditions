@@ -21,6 +21,16 @@ BYS Health Center is a web application designed to detect lung cancer and heart 
 - **Backend**: Python
 - **Machine Learning Libraries**: Scikit-learn, XGBoost
 
+## Screenshots
+![Screenshot 2024-01-04 010959](https://github.com/Yasiraleee/CardioPulmoCheck-AI-Health-Chatbot-for-Heart-Lung-Conditions/assets/117939487/a2ca9b94-ff70-4b64-9139-e9800b46b718)
+
+![Screenshot 2024-01-04 011116](https://github.com/Yasiraleee/CardioPulmoCheck-AI-Health-Chatbot-for-Heart-Lung-Conditions/assets/117939487/7dcc139b-8314-444f-8a20-53616c1483c1)
+
+![Screenshot 2024-01-04 011127](https://github.com/Yasiraleee/CardioPulmoCheck-AI-Health-Chatbot-for-Heart-Lung-Conditions/assets/117939487/0ddc1f3e-0d81-42dd-9930-2996b3645e5c)
+
+![Screenshot 2024-01-04 011138](https://github.com/Yasiraleee/CardioPulmoCheck-AI-Health-Chatbot-for-Heart-Lung-Conditions/assets/117939487/deb3236a-f998-4fbe-b211-53f88ed4ba3b)
+
+
 ## How to Use
 
 1. Clone the repository to your local machine.
